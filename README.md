@@ -33,7 +33,7 @@
 
 ## 🕵️‍♂️ Para clonar o repositório utilize:
 ```bash
- git clone hhttps://github.com/degabrielofi/JogoDaMemoria
+ git clone https://github.com/degabrielofi/JogoDaMemoria
 ```
 
  ## 
