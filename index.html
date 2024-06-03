@@ -1,40 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Memória - DeGabrielOFI_</title>
+    <link rel="stylesheet" href="./Interface/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/Urano.png"
+      type="image/x-icon"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jogo da Memória - DeGabrielOFI_</title>
-  <link rel="stylesheet" href="./Interface/style.css">
-  <link rel="shortcut icon" href="./assets/images/Urano.png" type="image/x-icon">
-</head>
+  <body>
+    <header>
+      <h1 id="Título">Bem vindo ao jogo da memoria</h1>
+    </header>
 
-<body>
+    <form id="container" action="./assets/index.html" method="GET">
+      <input
+        oninput="atualizar(this)"
+        class="r0"
+        id="Name"
+        type="text"
+        placeholder="Digite aqui seu nome..."
+        name="usuario"
+        required
+      />
+      <button onclick="enviar()" class="rect r1" type="submit">PLAY</button>
 
-  <header>
-    <h1 id="Título"> Bem vindo ao jogo da memoria</h1>
-  </header>
+      <div class="rect r2">
+        <a
+          href="https://www.linkedin.com/in/gabriel-silva-04478421b/"
+          target="_blank"
+        >
+          <p class="Textos">LinkedIn</p>
+        </a>
+      </div>
 
-  <form id="container" action="./assets/index.html" method="GET">
-    <input oninput="atualizar(this)" class="r0" id="Name" type="text" placeholder="Digite aqui seu nome..." name="usuario">
-    <button onclick="enviar()" class="rect r1" type="submit">PLAY</button>
+      <div class="rect r3">
+        <a href="https://github.com/degabrielofi" target="_blank">
+          <p class="Textos">GitHub</p>
+        </a>
+      </div>
 
-    <div class="rect r2"> <a href="https://www.linkedin.com/in/gabriel-silva-04478421b/" target="_blank">
-        <p class="Textos"> LinkedIn </p>
-      </a>
-    </div>
+      <div class="rect r4">
+        <a href="mailto:contatodegabrielofi@gmail.com" target="_blank">
+          <p class="Textos">Email</p>
+        </a>
+      </div>
+    </form>
 
-    <div class="rect r3"> <a href="https://github.com/degabrielofi" target="_blank">
-        <p class="Textos">GitHub</p>
-      </a> </div>
-
-    <div class="rect r4"><a href="mailto:contatodegabrielofi@gmail.com" target="_blank">
-        <p class="Textos">Email</p>
-      </a> </div>
-  </form>
-
-  <script src="./Interface/script.js"></script>
-</body>
-
+    <script src="./Interface/script.js"></script>
+  </body>
 </html>
