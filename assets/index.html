@@ -1,46 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="./style.css">
-    <link rel="shortcut icon" href="./images/Terra.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="shortcut icon" href="./images/Terra.png" type="image/x-icon" />
     <title>Encontre o Par de Cada Planeta - Jogo da Memória</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="gameBoard"></div>
     <div id="gameOver">
-        <div id="Texto">
-            Parabéns, você completou o jogo!
-        </div>
-        <div id="Scores">
-        </div>
-        <div id="caixa">
-            <p id="Score"></p>
-            <br>
-            <div id="moves">Jogadas: 0</div>
-            <div id="time">Tempo: 00:00</div>
-            <br>
-        </div>
+      <div id="Texto">Parabéns, você completou o jogo!</div>
+      <div id="Scores"></div>
+      <div id="caixa">
+        <p id="Score"></p>
+        <br />
+        <div id="moves">Jogadas: 0</div>
+        <div id="time">Tempo: 00:00</div>
+        <br />
+      </div>
 
-        <div class="buttons">
-        <button class="Restart" onclick="restart()">
-            Jogue novamente
-        </button>
+      <div class="buttons">
+        <button class="Restart" onclick="restart()">Jogue novamente</button>
         <button class="Restart">
-            <a href="../index.html">
-                Voltar ao Início
-            </a>
+          <a href="../index.html"> Voltar ao Início </a>
         </button>
-    </div>
+      </div>
     </div>
 
     <script src="./scripts/game.js"></script>
     <script src="./scripts/script.js"></script>
     <script src="../Interface/script.js"></script>
-</body>
-
+  </body>
 </html>
